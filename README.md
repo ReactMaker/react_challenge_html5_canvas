@@ -1,6 +1,11 @@
-# Simple React Start Kit 2017
+# React Html5 Canvas
 
-這個環境包可以讓你快速體驗 ReactJS 開發環境的便利，我們並沒有在裏面放入太多套件(例如 redux, karma)，希望可以讓你用最簡單的環境開始學習 React
+用 ReactJS + Html5 Canvas實作繪圖板
+畫筆顏色及粗細隨著滑鼠移動而改變
+
+## [Demo](https://reactmaker.github.io/react_challenge_html5_canvas/#/)
+
+![Imgur](https://i.imgur.com/jHUN0RW.gif)
 
 ## 特色
 
@@ -19,8 +24,8 @@
 先確定好安裝了 node 4.5 以上的版本，接著就可以輸入以下指令
 
 ```bash
-$ git clone https://github.com/ReactMaker/simple_react_start_kit_2017
-$ cd simple_react_start_kit_2017
+$ git clone https://github.com/ReactMaker/react_challenge_drum_kit.git
+$ cd react_challenge_drum_kit
 $ npm install                   # Install project dependencies
 $ npm start                     # Compile and launch
 ```
@@ -37,4 +42,3 @@ $ npm start                     # Compile and launch
 | `dist`             | 編譯整個網站成品到 dist 資料夾下                                             |
 | `lint`             | 檢查所有的 js 檔案有沒有符合 coding style                                    |
 | `lint:fix`         | 檢查所有的 js 檔案有沒有符合 coding style ，如果是一些簡單的錯誤就會嘗試修復 |
-
